@@ -1,0 +1,29 @@
+# Dữ liệu và file nén (tải lại được bằng code trong notebook)
+data/
+*.zip
+
+# Trọng số model đã train
+model/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Biến môi trường / secrets
+.env
+
+# IDE và hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
